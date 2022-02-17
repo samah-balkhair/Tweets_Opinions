@@ -11,9 +11,12 @@ The file import_tweets.py has the script to import the tweets using Twitter API.
 
 To run this file you have to have config.ini file that contains your own API twitter security key, it should be saved as following:
 
-api_key = 'YOUR API Key '
+api_key = 'YOUR API Key'
+
 api_key_secret = 'YOUR API Key Secret'
+
 access_token = 'YOUR Access Token'
+
 access_token_secret = 'YOUR Access Token Secret'
 
 The file will ask you about the Hashtag and the date that you want to collect the data. then it will save it in csv file. Afterward, we can read it from Tweets_Opinions.ipynb in a dataframe format 
