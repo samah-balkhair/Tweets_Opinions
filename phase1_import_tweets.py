@@ -67,12 +67,12 @@ if (not api):
     print ("Can't Authenticate")
     sys.exit(-1)
 else:
-    count = 16000 # Set the number of tweets to retrieve
+    count = 10000 # Set the number of tweets to retrieve
     #words = input('Enter Twitter HashTag to search for: ')
     words = 'Ukraine OR Russia OR #ukrainerussiawar OR #UkraineWar -filter:retweets'
     #print(words)
     print ("Scraping data now") 
-    cursor = tweepy.Cursor(api.search_tweets,words,lang='en')
+    cursor = tweepy.Cursor(api.search_tweets,words,lang='en',until='2022-03-01')
     #cursor = tweepy.Cursor(api.search_tweets,words,geocode=geocode,until = next_day.date())
 
     results=[]
@@ -83,11 +83,11 @@ else:
 
     # check if the file exist, it will add the data 
     try:
-        with open('./raw_data.csv') as f:
+        with open('./data/raw_data.csv') as f:
             print('Add The data to the existing file')
-            DataSet.to_csv('raw_data.csv',mode='a', header=False, index=False)
+            DataSet.to_csv('./data/raw_data.csv',mode='a', header=False, index=False)
     except IOError:
        print('Create new file')
-       DataSet.to_csv('raw_data.csv', index=False)
+       DataSet.to_csv('./data/raw_data.csv', index=False)
     
     print ("Completed.. !!")
