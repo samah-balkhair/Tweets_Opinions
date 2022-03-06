@@ -8,7 +8,7 @@ The idea of this project is to analyzing people’s opinion regarding certain ha
 
 ### Phase 1 - Setup
 
-The file import_tweets_hashtag.py has the script to import the tweets using Twitter API. in order to be able to run this file you have to have twitter developer account to obtain Twitter API Security codes. I hide my own for security purpose. 
+The file phase1_import_tweets.py has the script to import the tweets using Twitter API api.search_tweets. in order to be able to run this file you have to have twitter developer account to obtain Twitter API Security codes. I hide my own for security purpose. 
 
 To run this file you have to have config.ini file that contains your own API twitter security key, it should be saved as following:
 
@@ -22,4 +22,8 @@ access_token_secret = 'YOUR Access Token Secret'
 
 ### Phase 2 - Data Collection
 
-I target the topic of Ukraine/Russia war to analyze people opinion through their tweets all over the worlds. I was able to importe 16000 tweets that contains either Ukraine, Russia or #UkraineRussiawar asd I use this data as a raw dataset for my forject.
+I target the topic of Ukraine/Russia war to analyze people opinion through their tweets all over the worlds. I was able to importe more than 26000 tweets that contains either Ukraine, Russia or #UkraineRussiawar hashtag. I used this data as a raw dataset for my forject.
+
+### Phase 3 - Data Cleaning & EDA
+
+### Phase 4 - Final Report
