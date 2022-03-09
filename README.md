@@ -8,7 +8,7 @@ This repo contains the capstone project of Misk Data Science Immersive 2021-12.
 
 Wars are the most destroying factor for humanity. Regardless of the political justifications, no one wants to continue wars in which innocent people are the victims. Our hearts goes out to all that are affected by the war, and we pray for them.
 
-On 28 Feburar 2022, The Russia/Ukraine war was starting and the #ukrainerussiawar hashtag become popular on twitter all over the world. In this project I was trying to predict the emotion of the the tweets in general, and to extract the adjectives that described both Russia and Ukrainie from the tweets that used the hashtag #ukrainerussiawar.
+On 28 February 2022, The Russia/Ukraine war was starting and the #ukrainerussiawar hashtag become popular on twitter all over the world. In this project I was trying to predict the emotion of the the tweets in general, and to extract the adjectives that described both Russia and Ukraine from the tweets that used the hashtag #ukrainerussiawar.
 
 ### Phase 1 - Setup
 
